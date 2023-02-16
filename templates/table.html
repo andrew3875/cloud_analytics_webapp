@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AppExceptions</title>
+</head>
+<body>
+    <header>  
+        <h4>AppExceptions</h4>        
+    </header>
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>

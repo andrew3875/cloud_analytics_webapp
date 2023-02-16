@@ -1,0 +1,16 @@
+<!doctype html>
+<head>
+    <title>graphs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+</head>
+<html>
+   <body>
+     <main>
+        <div class="px-4 py-3 my-2 text-center" style="white-space: nowrap;">
+            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/graph.png') }}" alt="fig" width="700" height="500"/>
+            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/graph2.png') }}" alt="fig2" width="500" height="500" style="margin-left: 6em;"/>  
+        </div>
+        <h4> total records: {{num_rec}} </h4>
+     </main>      
+   </body>
+</html>
